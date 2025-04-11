@@ -1,4 +1,114 @@
+html {
+    --color-accent: oklch(0.84 0.143 206.7);
+}
+
 body {
     /* Set line height to 1.5 times the font size and use the OS’s UI font as the website font */
     font: 100%/1.5 system-ui;
+    max-width: 120ch;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+    accent-color: var(--color-accent);
+}
+
+h1 {
+    font-size: 3em;
+}
+
+:is(h1, h2, h3, h4, h5, h6) {
+    line-height: 1.1;
+    text-wrap: balance;
+}
+
+nav {
+    display: flex;
+    margin-bottom: 2%;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: oklch(80% 3% 200);
+}
+
+a.tab {
+    flex: 1;
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    padding: 0.5em;
+}
+
+a.current {
+    /* From tab properties */
+    flex: 1;
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    padding: 0.5em;
+
+    /* Properties for current tab */
+    font-weight: bold;
+    border-bottom-width: 0.4em;
+    border-bottom-style: solid;
+    border-bottom-color: oklch(80% 3% 200);
+    padding-bottom: 0px;
+}
+
+a.current:hover {
+    border-bottom-width: 0.4em;
+    border-bottom-style: solid;
+    border-bottom-color: var(--color-accent);
+    background-color: oklch(from var(--color-accent) 95% 5% h);
+    padding-bottom: 0px;
+}
+
+a.tab:hover {
+    border-bottom-width: 0.4em;
+    border-bottom-style: solid;
+    border-bottom-color: var(--color-accent);
+    background-color: oklch(from var(--color-accent) 95% 5% h);
+    padding-bottom: 0px;
+}
+
+input {
+    font: inherit;
+}
+
+textarea {
+    font: inherit;
+}
+
+button {
+    font: inherit;
+}
+
+/* Styling Contact Info */
+form {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1em;
+}
+
+button {
+    grid-column: 1 / -1;
+    width: 100%;
+}
+
+/* Styling Projects Page */
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2em;
+    padding: 2em;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+article {
+    background-color: #f9f9f9; /* Optional: distinguish each article visually */
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    margin: 1em;
 }
