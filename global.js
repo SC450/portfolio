@@ -15,45 +15,45 @@ console.log('IT’S ALIVE!');
 // currentLink?.classList.add('current');
 
 document.addEventListener('DOMContentLoaded', () => {
-    let pages = [
-        {url: "../", title: "Home"},
-        {url: "../projects/", title: "Projects"},
-        {url: "../contact/", title: "Contact"},
-        {url: "../resume/", title: "Resume"},
-        {url: "https://github.com/SC450", title: "GitHub"}
-    ];
+    // let pages = [
+    //     {url: "../", title: "Home"},
+    //     {url: "../projects/", title: "Projects"},
+    //     {url: "../contact/", title: "Contact"},
+    //     {url: "../resume/", title: "Resume"},
+    //     {url: "https://github.com/SC450", title: "GitHub"}
+    // ];
 
-    function normalizePath(path) {
-        return path.replace(/\/+$/, '').toLowerCase();
-    }
+    // function normalizePath(path) {
+    //     return path.replace(/\/+$/, '').toLowerCase();
+    // }
 
-    let currentPath = normalizePath(location.pathname);
+    // let currentPath = normalizePath(location.pathname);
 
-    let nav = document.createElement('nav');
-    document.body.prepend(nav);
+    // let nav = document.createElement('nav');
+    // document.body.prepend(nav);
 
-    for (let p of pages) {
-        let a = document.createElement('a');
-        a.href = p.url;
-        a.textContent = p.title;
-        a.classList.add('tab');
+    // for (let p of pages) {
+    //     let a = document.createElement('a');
+    //     a.href = p.url;
+    //     a.textContent = p.title;
+    //     a.classList.add('tab');
 
-        // External link? Open in a new tab
-        if (!p.url.startsWith("..") && !p.url.startsWith("/")) {
-            a.target = "_blank";
-            a.rel = "noopener noreferrer"; // Good security practice
-        }
+    //     // External link? Open in a new tab
+    //     if (!p.url.startsWith("..") && !p.url.startsWith("/")) {
+    //         a.target = "_blank";
+    //         a.rel = "noopener noreferrer"; // Good security practice
+    //     }
 
-        // Match current page for local links
-        if (a.host === location.host) {
-            let linkPath = normalizePath(a.pathname);
-            if (linkPath === currentPath) {
-                a.classList.add('current');
-            }
-        }
+    //     // Match current page for local links
+    //     if (a.host === location.host) {
+    //         let linkPath = normalizePath(a.pathname);
+    //         if (linkPath === currentPath) {
+    //             a.classList.add('current');
+    //         }
+    //     }
 
-        nav.appendChild(a);
-    }
+    //     nav.appendChild(a);
+    // }
 
     // Add theme selector
     document.body.insertAdjacentHTML(

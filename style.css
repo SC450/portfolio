@@ -109,10 +109,11 @@ button {
     padding: 2em;
     max-width: 1200px;
     margin: 0 auto;
+    
 }
 
 article {
-    background-color: #f9f9f9; /* Optional: distinguish each article visually */
+    /* background-color: #f9f9f9; /* Optional: distinguish each article visually */
     padding: 1em;
     border: 1px solid #ddd;
     border-radius: 8px;
