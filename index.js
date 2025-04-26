@@ -1,5 +1,5 @@
 // Imports
-import {fetchGitHubData} from '/global.js';
+import {fetchGitHubData} from '../global.js';
 
 // Retreive GitHub data
 const githubData = await fetchGitHubData('SC450');
