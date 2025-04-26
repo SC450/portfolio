@@ -1,0 +1,74 @@
+[
+    {
+        "title": "Mindful Snacking: Food Processing Data Visualization",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "year": 2025,
+        "description": "I made a bar chart visualization of average food processing scores among five categories of snacks, from three different stores. Insights about mindful snacking can be drawn from this visualization, and it can be concluded that nuts and seeds have the lowest food processing score among the most popular snacks."
+    },
+    {
+        "title": "League of Legends Draft Analysis",
+        "year": 2025,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "I analyzed competitive match data from the 2024 League of Legends season, handling missing values, conducting hypothesis testing, and building a predictive model for game outcomes based on early-game data and team rosters."
+    },
+    {
+        "title": "Computer Vision-Based Driver Assistance System",
+        "year": 2025,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "I designed and implemented an advanced object detection system capable of recognizing vehicles, pedestrians, and other common road objects, with integrated lane marking identification."
+    },
+    {
+        "title": "TritonHacks 2024 - Game Development Starter Kit",
+        "year": 2024,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "I developed a starter project in Unity with a partner for a high school hackathon that served 85 attendees, with the starter kit including custom 3D models, scripting guides, and a customizable procedural terrain generation system."
+    },
+    {
+        "title": "Stock Prediction with Machine Learning",
+        "year": 2023,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "I collaborated with a partner to develop four machine learning models that predict future stock prices of various companies, and deployed a website to elegantly display the predictions, showing nuanced differences in the models."
+    },
+    {
+        "title": "Adipisci quibusdam nihil eum.",
+        "year": 2023,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Minus soluta ab dignissimos, expedita minima harum aliquid, id veniam, rerum vitae facere consequuntur vero sunt quidem repudiandae? Nostrum, rem! Veniam, vero laboriosam perferendis corporis vitae suscipit atque in ab!"
+    },
+    {
+        "title": "Unde dolores ullam ut.",
+        "year": 2023,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Deleniti natus soluta necessitatibus fuga dolores, voluptates deserunt saepe earum, vitae ad dolorem optio vero nesciunt dolorum blanditiis eveniet commodi quo dicta molestias, voluptatum ipsam eaque corrupti! Sequi, neque dolores."
+    },
+    {
+        "title": "Perspiciatis sapiente sit modi?",
+        "year": 2023,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Sed, iusto nobis ex ab sapiente tenetur cum. Veniam molestiae modi inventore vitae vero. Officia rem vel dignissimos sapiente? Ex voluptatem id amet nam quas quo iusto quidem dignissimos possimus!"
+    },
+    {
+        "title": "Exercitationem nam provident earum?",
+        "year": 2023,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Ab odio architecto quos ea, quo recusandae temporibus molestias, cumque autem, deserunt sequi cupiditate assumenda. Ducimus placeat blanditiis, numquam repellendus vel reiciendis aut illo labore repudiandae enim eius dolor veniam!"
+    },
+    {
+        "title": "Asperiores laborum corporis ipsum.",
+        "year": 2022,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Aliquam, fuga soluta sapiente officia porro quae voluptatem deleniti assumenda facilis minima sit voluptatum qui repellat saepe sed optio aperiam voluptate! Voluptatem perspiciatis tempora eum quasi repellendus dicta praesentium inventore!"
+    },
+    {
+        "title": "Dignissimos quaerat dolore culpa!",
+        "year": 2022,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Placeat quis sint voluptatibus impedit pariatur cumque ab excepturi facere beatae rem! Repellendus corporis ea accusamus, quasi eveniet necessitatibus possimus. Molestiae recusandae, quam voluptate aperiam blanditiis ad tenetur illo laudantium."
+    },
+    {
+        "title": "Quo beatae earum eaque!",
+        "year": 2022,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Soluta a cumque aperiam, aliquid rem veritatis iure libero animi iste, excepturi nobis dolor! Sequi expedita voluptates tempora? Unde eos earum incidunt delectus eaque fuga exercitationem omnis atque minima sed?"
+    }
+]

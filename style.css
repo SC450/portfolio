@@ -109,7 +109,15 @@ button {
     padding: 2em;
     max-width: 1200px;
     margin: 0 auto;
-    
+}
+
+.projects-latest {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2em;
+    padding: 2em;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 article {
@@ -128,4 +136,27 @@ label.color-scheme {
     right: 0.3rem;
     font-size: 80%;
     font-family: inherit;
+}
+
+/* Format GitHub Stats */
+dl {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.1rem;
+    text-align: left;
+}
+
+dt {
+    grid-row: 1;
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+
+dd {
+    grid-row: 2;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
 }
