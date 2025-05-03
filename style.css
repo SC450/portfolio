@@ -129,6 +129,69 @@ article {
     margin: 1em;
 }
 
+p.project-year {
+    font-family: Baskerville, serif;
+    font-variant-numeric: oldstyle-nums;
+    font-size: larger;
+}
+
+#projects-pie-plot {
+    max-width: 20em;
+    margin-block: 2em;
+  
+    overflow: visible;
+}
+
+span.swatch {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 50%;
+    margin-right: 0.5em;
+    background-color: var(--color);
+    align-items: center;
+}
+
+li.legend-item {
+    display: flex;
+    align-items: center;
+}
+
+ul.legend {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(11em, 1fr));
+    border: 1px solid #ddd;
+    padding: 1em;
+    margin: 0.5em;
+    flex: 1;
+}
+
+div.container {
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2em;
+    padding: 2em;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+&:has(path:hover) {
+    path:not(:hover) {
+      opacity: 0.5;
+      transition: 300ms;
+    }
+}
+
+.selected {
+    --color: oklch(60% 45% 0) !important;
+    display: flex;
+    align-items: center;
+
+    &:is(path) {
+      fill: var(--color);
+    }
+}
+
 /* Format theme selector */
 label.color-scheme {
     position: absolute;
