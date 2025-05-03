@@ -185,8 +185,8 @@ searchInput.addEventListener('input', (event) => {
 });
 
 // Bug explanation: Searching in bar and then clicking on a pie slice only filters the
-// projects by year because the search query is not being passed to the renderPieChart function.
-// (i.e., search query is not beign updated after clicking on a pie slice)
-// Solution: Pass the search query to the renderPieChart function and filter the projects
-// accordingly. This way, the pie chart will only show the projects that match the search query
-// and the selected year.
+// projects by year because the search query is not being passed to the renderPieChart function
+// (i.e., search query is not being updated after clicking on a pie slice).
+// Solution: Check if there are both a selected pie slice and a search query.
+// If so, filter the projects by both year and search query.
+// If only a search query is present, filter the projects by the search query.
