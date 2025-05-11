@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <script src="../global.js" type="module"></script>
+    <script src="main.js" type="module"></script>
+    <title>Shawn Cheng: Meta</title>
+</head>
+<body>
+    <nav>
+        <a class="tab" href="../">Home</a>
+        <a class="tab" href="../projects/">Projects</a>
+        <a class="tab" href="../contact/">Contact</a>
+        <a class="tab" href="../resume/">Resume</a>
+        <a class="current" href="../meta/">Meta</a>
+        <a class="tab" href="https://github.com/SC450" target="_blank">GitHub</a>
+    </nav>
+    <h1>Meta</h1>
+    <!-- <p>This is a meta page for Shawn Cheng's personal site and portfolio. It contains information about the site itself, including its structure, technologies used, and any other relevant details.</p> -->
+    <div id="stats">
+        <!-- Dynamically added content will appear here -->
+    </div>
+    <h2>Commits by time of day</h2>
+    <div id="chart">
+        <!-- Dynamically added content will appear here -->
+    </div>
+    <dl id="commit-tooltip" class="info tooltip" hidden>
+        <dt>Commit</dt>
+        <dd>
+            <a href="" id="commit-link" target="_blank"></a>
+        </dd>
+      
+        <dt>Date</dt>
+        <dd id="commit-date"></dd>
+      
+        <!-- Add: Time, author, lines edited -->
+    </dl>
+    <p id="selection-count">No commits selected</p>
+    <dl id="language-breakdown" class="stats"></dl>
+</body>
+</html>
