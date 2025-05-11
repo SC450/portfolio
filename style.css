@@ -270,7 +270,7 @@ backdrop-filter if you want a frosted glass effect
 Appropriate padding for spacing
 */
 dl.info {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.2);
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
     border-radius: 0.5rem;
     padding: 1em;
