@@ -253,10 +253,60 @@ circle {
     transition: 200ms;
     transform-origin: center;
     transform-box: fill-box;
+    @starting-style {
+        r: 0;
+    }
 }
   
 circle:hover {
     transform: scale(1.5);
+}
+
+#files {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+
+    > div {
+        grid-column: 1 / -1;
+        display: grid;
+        grid-template-columns: subgrid;
+    }
+
+    dt {
+        grid-column: 1;
+    }
+
+    dd {
+        grid-column: 2;
+    }
+}
+
+.loc {
+    display: flex;
+    width: 0.5em;
+    aspect-ratio: 1;
+    background: steelblue;
+    border-radius: 50%;
+    background: var(--color);
+}
+
+#files {
+    dd {
+        grid-column: 2;
+        grid-row: 1;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: start;
+        align-content: start;
+        gap: 0.15em;
+        padding-top: 0.6em;
+        padding-left: 0.5em;
+        margin-left: 0;
+    }
+
+    dt {
+        padding-top: 1.5em;
+    }
 }
 
 /* Style dl like a tooltip
@@ -308,4 +358,44 @@ dl.info[hidden]:not(:hover, :focus-within) {
 /* Make selected dots stand out */
 circle.selected {
     fill: #ff6b6b;
+}
+
+div.filter-container {
+    display: flex;
+    align-items: baseline;
+}
+
+div.time-label {
+    margin-left: auto;
+}
+
+input[type="range"] {
+    width: 750%;
+}
+
+/* Scrollytelling formatting */
+#scrolly-1 {
+  position: relative;
+  display: flex;
+  gap: 1rem;
+
+  > * {
+    flex: 1;
+  }
+}
+
+#scatter-story {
+  position: relative;
+}
+
+#scatter-plot {
+  position: sticky;
+  top: 0;
+  left: 0;
+  bottom: auto;
+  height: 50vh;
+}
+
+div.filter-container {
+    padding-top: 3em;
 }

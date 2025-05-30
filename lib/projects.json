@@ -1,5 +1,11 @@
 [
     {
+        "title": "Bikewatching",
+        "year": 2025,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "I created a website that shows bike routes in Boston and Cambridge, MA, using the Mapbox API and publicly available bike route data. The website allows users to view and filter bike stations based on time of day, and shows when bike stations are most populated."
+    },
+    {
         "title": "Mindful Snacking: Food Processing Data Visualization",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "year": 2025,
@@ -28,12 +34,6 @@
         "year": 2023,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "I collaborated with a partner to develop four machine learning models that predict future stock prices of various companies, and deployed a website to elegantly display the predictions, showing nuanced differences in the models."
-    },
-    {
-        "title": "Adipisci quibusdam nihil eum.",
-        "year": 2023,
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Minus soluta ab dignissimos, expedita minima harum aliquid, id veniam, rerum vitae facere consequuntur vero sunt quidem repudiandae? Nostrum, rem! Veniam, vero laboriosam perferendis corporis vitae suscipit atque in ab!"
     },
     {
         "title": "Unde dolores ullam ut.",
